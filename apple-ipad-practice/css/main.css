@@ -25,6 +25,7 @@ header ul.menu li{
     display: flex;
 
 }
+
 header ul.menu li a{
     padding: 0 10px;
     font-size: 11px;
@@ -33,6 +34,30 @@ header ul.menu li a{
     color: aliceblue;
     opacity: .8;
     text-decoration: none;
+
+}
+
+header ul.menu li.apple-logo a,
+header ul.menu li.search-starter a,
+header ul.menu li.basket-starter a
+{
+    text-indent: -9999px;
+    background-repeat: no-repeat;
+    background-position: center 13px;
+
+}
+header ul.menu li.apple-logo a{
+    background-image: url("../images/header_apple.svg");
+
+}
+
+header ul.menu li.search-starter a{
+    background-image: url("../images/header_search.svg");
+
+}
+header ul.menu li.basket-starter a{
+    background-image: url("../images/header_bag.svg");
+
 }
 
 header ul.menu li a:hover{
