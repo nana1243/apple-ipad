@@ -1,0 +1,40 @@
+
+body {
+    font-size: 16px;
+    line-height: 1;
+    font-family: "Roboto", "Noto Sans KR", sans-serif;
+    word-break: keep-all;
+}
+
+/* Header */
+header{
+    background-color: #3A3A3A ;
+}
+header .inner{
+    max-width: 1020px;
+    margin: auto;
+}
+header ul.menu{
+    height: 44px;
+    display:flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+header ul.menu li{
+    display: flex;
+
+}
+header ul.menu li a{
+    padding: 0 10px;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    opacity: .8;
+    text-decoration: none;
+}
+
+header ul.menu li a:hover{
+    opacity: 1;
+}
